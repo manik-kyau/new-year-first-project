@@ -1,0 +1,150 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*       Header Style    */
+.header{
+    margin: 50px auto;
+    width: 1180px;
+    height: 550px;
+}
+.banner{
+    
+    height: 550px;
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-container{
+    margin: 0px auto;
+    padding-top: 130px;
+    width: 532px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub-title{
+    color: orange;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+
+.title{
+    color: yellowgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+/*  Section styling   */
+section{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.section-container{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section-title{
+    color: #F00;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.section-sub-title{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.section-description{
+    color: #070211;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.sectiom-image{
+    width: 550px;
+    height: 450px;
+    
+}
+
+/* Party Section Styles    */
+.party-container{
+    padding: 0px 100px;
+    height: 550px;
+    background-image: url('../images/vector.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.party{
+
+}
+
+.party-title{
+    width: 520px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.party-description{
+    width: 530px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.party a{
+    padding: 25px 35px;
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.party-image{
+    width: 300px;
+    height: 330px;
+}
+/* section no. 3 style  */
+.hotel-container{
+    margin: 100px 0px;
+    padding: 100px 0px;
+    border-radius: 10px;
+    background-color: #f8e3d5;
+    text-align: center;
+}
+.h-title{
+    color: #070211;
+    font-size: 35px;
+    font-weight: 600;
+}
+.h-title span{
+    color: #F00;
+}
+.btn-primary{
+    margin-top: 40px;
+    padding: 20px 80px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: white;
+    font-weight: bold;
+
+}
